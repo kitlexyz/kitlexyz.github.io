@@ -1,51 +1,220 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksteps Support & Privacy</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #eef5ef;
+            --card: rgba(255, 255, 255, 0.82);
+            --text: #183126;
+            --muted: #547060;
+            --accent: #2f7d57;
+            --line: rgba(47, 125, 87, 0.16);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #07120d;
+                --card: rgba(14, 28, 21, 0.86);
+                --text: #eef7f0;
+                --muted: #a5b9ad;
+                --accent: #7ee0a6;
+                --line: rgba(126, 224, 166, 0.16);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", sans-serif;
+            background:
+                radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
+                radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
+                var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+
+        .hero,
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        .hero {
+            padding: 28px;
+            margin-bottom: 18px;
+        }
+
+        h1, h2, h3, p, ul {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 34px;
+            line-height: 1.15;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle,
+        .muted {
+            color: var(--muted);
+        }
+
+        .grid {
+            display: grid;
+            gap: 18px;
+            grid-template-columns: 1fr;
+        }
+
+        .card {
+            padding: 24px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        li + li {
+            margin-top: 6px;
+        }
+
+        .section + .section {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--line);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border-radius: 999px;
+            background: rgba(47, 125, 87, 0.10);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <div class="pill">Ksteps</div>
+            <h1>Support & Privacy</h1>
             <p class="subtitle">
-                Ksteps is an app designed to help you check your daily step count and goal progress at a glance on Apple Watch.
-                This page provides both support information and the privacy policy for Ksteps.
+                An app designed to let you quickly check today's step count and goal progress on Apple Watch.
+                This page provides both Ksteps support information and the privacy policy.
             </p>
+        </section>
+
+        <div class="grid">
+            <section class="card">
+                <h2>Support</h2>
+
                 <div class="section">
-                    <h3>About Ksteps</h3>
+                    <h3>About the App</h3>
                     <p class="muted">
-                        Ksteps is designed to help you quickly check your step count on Apple Watch and complications.
-                        You can set your step goal, language, and unit preferences, and the app reads walking data from Apple Health to show your progress.
+                        Ksteps is designed to quickly show your step count on Apple Watch and its complications.
+                        You can configure your step goal, language, and units, and the app reads walking data
+                        from Apple Health to display your progress.
                     </p>
+                </div>
+
                 <div class="section">
-                    <h3>Things to Know</h3>
+                    <h3>Things to Check When Using the App</h3>
                     <ul class="muted">
-                        <li>When you launch the app on Apple Watch for the first time, you may see a permission request for Apple HealthKit.</li>
-                        <li>It may take a few seconds for the system permission sheet to respond.</li>
-                        <li>Your step count can refresh when you open the Apple Watch app or manually refresh it.</li>
+                        <li>When you run the app on Apple Watch for the first time, a HealthKit permission request may appear.</li>
+                        <li>It may take a few seconds for the permission sheet to appear.</li>
+                        <li>Your step count may update when you open the Apple Watch app or refresh it.</li>
                     </ul>
+                </div>
+
                 <div class="section">
                     <h3>Contact</h3>
                     <p class="muted">
-                        If you need support, please contact us at:<br>
+                        If you need support, please contact us at the email below.<br>
                         <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a>
                     </p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Privacy Policy</h2>
+
                 <div class="section">
-                    <h3>Data We Use</h3>
+                    <h3>Information We Collect</h3>
                     <p class="muted">
-                        Ksteps reads walking data from Apple HealthKit, such as your step count, so it can display that information in the app and complications.
+                        Ksteps may read walking data from Apple HealthKit (such as step count)
+                        to display it within the app and complications.
                     </p>
+                </div>
+
                 <div class="section">
-                    <h3>How We Use Data</h3>
+                    <h3>How Information Is Used</h3>
                     <ul class="muted">
-                        <li>To display your step count and goal progress in the app and on Apple Watch complications.</li>
-                        <li>To save your preferences such as step goal, language, unit, and complication title on your device and in shared app storage.</li>
+                        <li>Used to display step count and goal progress in the app and Apple Watch complications.</li>
+                        <li>Settings such as step goals, language, units, and complication titles may be stored on the device or in the app group storage.</li>
                     </ul>
+                </div>
+
                 <div class="section">
                     <h3>Server Transmission</h3>
                     <p class="muted">
-                        Ksteps does not send your HealthKit data to a developer server and does not store it separately outside your device.
+                        Ksteps does not transmit or store HealthKit data on the developer's servers.
                     </p>
+                </div>
+
                 <div class="section">
                     <h3>Third-Party Sharing</h3>
                     <p class="muted">
-                        Ksteps does not share your HealthKit data with third parties.
+                        Ksteps does not share HealthKit data with third parties.
                     </p>
+                </div>
+
                 <div class="section">
                     <h3>Contact</h3>
                     <p class="muted">
-                        For privacy-related questions, please contact:<br>
+                        If you have questions regarding privacy, please contact us at the email below.<br>
                         <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
