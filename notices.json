@@ -1,0 +1,20 @@
+{
+   "updatedAt": "2026-05-03T00:00:00Z",
+   "items": [
+     {
+       "id": "notice-20260503",
+       "type": "notice",
+       "title": "Welcome",
+       "titleKo": "환영합니다",
+       "titleEn": "Welcome",
+       "body": "Thank you for using Ksteps.",
+       "bodyKo": "Ksteps를 사용해주셔서 감사합니다.",
+       "bodyEn": "Thank you for using Ksteps.",
+       "link": null,
+       "minVersion": null,
+       "maxVersion": null,
+       "isPinned": false,
+       "publishedAt": "2026-05-03T00:00:00Z"
+     }
+   ]
+ }
