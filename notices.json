@@ -1,21 +1,23 @@
 {
-     "updatedAt": "2026-05-12T00:00:00Z",
-     "items": [
-        {
-           "id": "notice-20260512-170",
-           "type": "notice",
-           "title": "업데이트 알림",
-           "titleKo": "1.7.0 2026 챌린지 소개",
-           "titleEn": "1.7.0 Introducing 2026 Challenge",
-           "body": "Thank you for using Ksteps.",
-           "bodyKo": "2026 챌린지가 추가되었습니다. 일일 목표를 몇 번 달성했는지와 연속 달성 뱃지를 획득하며 건강한 생활을 유지해보세요.",
-           "bodyEn": "The 2026 Challenge has arrived. Track how many times you've hit your daily goal, earn streak badges, and keep up a healthy lifestyle.",
-           "link": null,
-           "minVersion": null,
-           "maxVersion": null,
-           "isPinned": false,
-           "publishedAt": "2026-05-12T00:00:00Z"
-        },
+       "updatedAt": "2026-05-12T00:00:00Z",
+       "items": [
+          {
+             "id": "notice-20260512-170",
+             "type": "notice",
+             "title": "업데이트 알림",
+             "titleKo": "1.7.0 2026 챌린지 소개",
+             "titleEn": "1.7.0 Introducing 2026 Challenge",
+             "titleJa": "1.7.0 2026 チャレンジ紹介",
+             "body": "Thank you for using Ksteps.",
+             "bodyKo": "2026 챌린지가 추가되었습니다. 일일 목표를 몇 번 달성했는지와 연속 달성 뱃지를 획득하며 건강한 생활을 유지해보세요.",
+             "bodyEn": "The 2026 Challenge has arrived. Track how many times you've hit your daily goal, earn streak badges, and keep up a healthy lifestyle.",
+             "bodyJa": "2026 チャレンジが追加されました。毎日の目標を何回達成したかを記 録し、連続達成バッジを獲得しながら健康的な生活を続けましょう。",
+             "link": null,
+             "minVersion": null,
+             "maxVersion": null,
+             "isPinned": false,
+             "publishedAt": "2026-05-12T00:00:00Z"
+          },
         {
            "id": "notice-20260509-150",
            "type": "notice",
