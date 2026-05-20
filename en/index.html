@@ -1,223 +1,206 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ksteps Support & Privacy</title>
+      <style>
+          :root {
+              color-scheme: light dark;
+              --bg: #eef5ef;
+              --card: rgba(255, 255, 255, 0.82);
+              --text: #183126;
+              --muted: #547060;
+              --accent: #2f7d57;
+              --line: rgba(47, 125, 87, 0.16);
+          }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ksteps Support & Privacy</title>
-    <style>
-        :root {
-            color-scheme: light dark;
-            --bg: #eef5ef;
-            --card: rgba(255, 255, 255, 0.82);
-            --text: #183126;
-            --muted: #547060;
-            --accent: #2f7d57;
-            --line: rgba(47, 125, 87, 0.16);
-        }
+          @media (prefers-color-scheme: dark) {
+              :root {
+                  --bg: #07120d;
+                  --card: rgba(14, 28, 21, 0.86);
+                  --text: #eef7f0;
+                  --muted: #a5b9ad;
+                  --accent: #7ee0a6;
+                  --line: rgba(126, 224, 166, 0.16);
+              }
+          }
 
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #07120d;
-                --card: rgba(14, 28, 21, 0.86);
-                --text: #eef7f0;
-                --muted: #a5b9ad;
-                --accent: #7ee0a6;
-                --line: rgba(126, 224, 166, 0.16);
-            }
-        }
+          * {
+              box-sizing: border-box;
+          }
 
-        * {
-            box-sizing: border-box;
-        }
+          body {
+              margin: 0;
+              font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo",
+  sans-serif;
+              background:
+                  radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
+                  radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
+                  var(--bg);
+              color: var(--text);
+              line-height: 1.6;
+          }
 
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", sans-serif;
-            background:
-                radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
-                radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
-                var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-        }
+          .wrap {
+              max-width: 860px;
+              margin: 0 auto;
+              padding: 32px 20px 64px;
+          }
 
-        .wrap {
-            max-width: 860px;
-            margin: 0 auto;
-            padding: 32px 20px 64px;
-        }
+          .hero,
+          .card {
+              background: var(--card);
+              border: 1px solid var(--line);
+              border-radius: 24px;
+              backdrop-filter: blur(14px);
+              -webkit-backdrop-filter: blur(14px);
+          }
 
-        .hero,
-        .card {
-            background: var(--card);
-            border: 1px solid var(--line);
-            border-radius: 24px;
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
-        }
+          .hero {
+              padding: 28px;
+              margin-bottom: 18px;
+          }
 
-        .hero {
-            padding: 28px;
-            margin-bottom: 18px;
-        }
+          h1, h2, h3, p, ul {
+              margin: 0;
+          }
 
-        h1, h2, h3, p, ul {
-            margin: 0;
-        }
+          h1 {
+              font-size: 34px;
+              line-height: 1.15;
+              margin-bottom: 10px;
+          }
 
-        h1 {
-            font-size: 34px;
-            line-height: 1.15;
-            margin-bottom: 10px;
-        }
+          h2 {
+              font-size: 22px;
+              margin-bottom: 12px;
+          }
 
-        h2 {
-            font-size: 22px;
-            margin-bottom: 12px;
-        }
+          h3 {
+              font-size: 18px;
+              margin-bottom: 8px;
+          }
 
-        h3 {
-            font-size: 18px;
-            margin-bottom: 8px;
-        }
+          .subtitle,
+          .muted {
+              color: var(--muted);
+          }
 
-        .subtitle,
-        .muted {
-            color: var(--muted);
-        }
+          .grid {
+              display: grid;
+              gap: 18px;
+              grid-template-columns: 1fr;
+          }
 
-        .grid {
-            display: grid;
-            gap: 18px;
-            grid-template-columns: 1fr;
-        }
+          .card {
+              padding: 24px;
+          }
 
-        .card {
-            padding: 24px;
-        }
+          ul {
+              padding-left: 18px;
+          }
 
-        ul {
-            padding-left: 18px;
-        }
+          li + li {
+              margin-top: 6px;
+          }
 
-        li + li {
-            margin-top: 6px;
-        }
+          .section + .section {
+              margin-top: 18px;
+              padding-top: 18px;
+              border-top: 1px solid var(--line);
+          }
 
-        .section + .section {
-            margin-top: 18px;
-            padding-top: 18px;
-            border-top: 1px solid var(--line);
-        }
+          a {
+              color: var(--accent);
+              text-decoration: none;
+          }
 
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
+          a:hover {
+              text-decoration: underline;
+          }
 
-        a:hover {
-            text-decoration: underline;
-        }
+          .pill {
+              display: inline-block;
+              padding: 6px 10px;
+              margin-bottom: 12px;
+              border-radius: 999px;
+              background: rgba(47, 125, 87, 0.10);
+              color: var(--accent);
+              font-size: 13px;
+              font-weight: 600;
+          }
+      </style>
+  </head>
+  <body>
+      <main class="wrap">
+          <section class="hero">
+              <div class="pill">Ksteps</div>
+              <h1>Support & Privacy</h1>
+              <p class="subtitle">Ksteps is built to help you check today's step count and goal progress at a glance on Apple Watch. This page provides support information and the privacy policy for Ksteps.</p>
+          </section>
 
-        .pill {
-            display: inline-block;
-            padding: 6px 10px;
-            margin-bottom: 12px;
-            border-radius: 999px;
-            background: rgba(47, 125, 87, 0.10);
-            color: var(--accent);
-            font-size: 13px;
-            font-weight: 600;
-        }
-    </style>
-</head>
-<body>
-    <main class="wrap">
-        <section class="hero">
-            <div class="pill">Ksteps</div>
-            <h1>Support & Privacy</h1>
-            <p class="subtitle">
-                Ksteps is built to help you check today's step count and goal progress at a glance on Apple Watch.
-                This page provides support information and the privacy policy for Ksteps.
-            </p>
-        </section>
+          <div class="grid">
+              <section class="card">
+                  <h2>Support</h2>
 
-        <div class="grid">
-            <section class="card">
-                <h2>Support</h2>
+                  <div class="section">
+                      <h3>About the App</h3>
+                      <p class="muted">Ksteps is designed to help you quickly view your step count on Apple Watch and complications. You can configure your step goal, language, and unit preferences, and the app reads Apple Health step data to show your progress. On Apple Watch, you can start and save walking or hiking workout sessions with GPS route tracking.</p>
+                  </div>
 
-                <div class="section">
-                    <h3>About the App</h3>
-                    <p class="muted">
-                        Ksteps is designed to help you quickly view your step count on Apple Watch and complications.
-                        You can configure your step goal, language, and unit preferences, and the app reads Apple Health step data to show your progress.
-                        On Apple Watch, you can also start and save walking or hiking workout sessions.
-                    </p>
-                </div>
+                  <div class="section">
+                      <h3>Things to Check</h3>
+                      <ul class="muted">
+                          <li>When you open the app or start a workout for the first time on Apple Watch, HealthKit and location permission prompts may appear.</li>
+                          <li>Location access is used to record your GPS route during workouts. Declining it does not affect step counting or workout saving.</li>
+                          <li>It can take a few seconds for the permission sheet to finish responding.</li>
+                          <li>Your latest step count may refresh when you open or refresh the Apple Watch app.</li>
+                      </ul>
+                  </div>
 
-                <div class="section">
-                    <h3>Things to Check</h3>
-                    <ul class="muted">
-                        <li>When you open the app for the first time on Apple Watch, an Apple HealthKit permission prompt may appear.</li>
-                        <li>It can take a few seconds for the permission sheet to finish responding.</li>
-                        <li>Your latest step count may refresh when you open or refresh the Apple Watch app.</li>
-                    </ul>
-                </div>
+                  <div class="section">
+                      <h3>Contact</h3>
+                      <p class="muted">If you need support, contact us at: <a
+  href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                  </div>
+              </section>
 
-                <div class="section">
-                    <h3>Contact</h3>
-                    <p class="muted">
-                        If you need support, contact us at:<br>
-                        <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a>
-                    </p>
-                </div>
-            </section>
+              <section class="card">
+                  <h2>Privacy Policy</h2>
 
-            <section class="card">
-                <h2>Privacy Policy</h2>
+                  <div class="section">
+                      <h3>Information We Access</h3>
+                      <p class="muted">Ksteps may read Apple HealthKit step data to display it in the app and complications. If you start a workout on Apple Watch, the app may save that walking or hiking workout record to HealthKit. If you grant location permission during a workout, GPS route data may be saved to Apple Health.</p>
+                  </div>
 
-                <div class="section">
-                    <h3>Information We Access</h3>
-                    <p class="muted">
-                        Ksteps may read Apple HealthKit step data, such as your daily step count, to display it in the app and complications.
-                        If you start a workout on Apple Watch, the app may save that walking or hiking workout record to HealthKit.
-                    </p>
-                </div>
+                  <div class="section">
+                      <h3>How the Information Is Used</h3>
+                      <ul class="muted">
+                          <li>To display your step count and goal progress in the app and Apple Watch complications.</li>
+                          <li>To save walking or hiking workout sessions you start on Apple Watch to Apple Health.</li>
+                          <li>To record your GPS route to Apple Health during workouts, if location permission is granted.</li>
+                          <li>To store preferences such as your step goal, language, unit, and complication title in local device storage and the app group container.</li>
+                      </ul>
+                  </div>
 
-                <div class="section">
-                    <h3>How the Information Is Used</h3>
-                    <ul class="muted">
-                        <li>To display your step count and goal progress in the app and Apple Watch complications.</li>
-                        <li>To save walking or hiking workout sessions that you explicitly start on Apple Watch to Apple Health.</li>
-                        <li>To store preferences such as your step goal, language, unit, and complication title in local device storage and the app group container.</li>
-                    </ul>
-                </div>
+                  <div class="section">
+                      <h3>Server Transmission</h3>
+                      <p class="muted">Ksteps does not send HealthKit data or location data to the developer's servers and does not store it on external systems. All data is processed on your device and within the Apple Health ecosystem.</p>
+                  </div>
 
-                <div class="section">
-                    <h3>Server Transmission</h3>
-                    <p class="muted">
-                        Ksteps does not send HealthKit data to the developer's servers and does not store it separately on external systems.
-                        Workout record saving happens on your device and within the Apple Health ecosystem.
-                    </p>
-                </div>
+                  <div class="section">
+                      <h3>Third-Party Sharing</h3>
+                      <p class="muted">Ksteps does not share your HealthKit data or location data with third parties.</p>
+                  </div>
 
-                <div class="section">
-                    <h3>Third-Party Sharing</h3>
-                    <p class="muted">
-                        Ksteps does not share your HealthKit data with third parties.
-                    </p>
-                </div>
-
-                <div class="section">
-                    <h3>Contact</h3>
-                    <p class="muted">
-                        For privacy-related questions, contact us at:<br>
-                        <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a>
-                    </p>
-                </div>
-            </section>
-        </div>
-    </main>
-</body>
-</html>
+                  <div class="section">
+                      <h3>Contact</h3>
+                      <p class="muted">For privacy-related questions, contact us at: <a
+  href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                  </div>
+              </section>
+          </div>
+      </main>
+  </body>
+  </html>
