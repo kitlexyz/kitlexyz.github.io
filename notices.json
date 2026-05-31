@@ -1,23 +1,23 @@
 {
        "updatedAt": "2026-05-31T00:00:00Z",
        "items": [
-       {
-               "id": "notice-20260531-1120",
-               "type": "notice",
-               "title": "업데이트 알림",
-               "titleKo": "1.10.0 ~ 1.12.0 업데이트 소개",
-               "titleEn": "1.10.0 ~ 1.12.0 Update",
-               "titleJa": "1.10.0 ~ 1.12.0 アップデート紹介",
-               "body": "Thank you for using Ksteps.",
-               "bodyKo": "홈 하단에 카드 순서 편집기능이 추가되었습니다.\n운동중 GPS 지도 표시는 버그로 인해 우선 당분간 기능 OFF 되었습니다.\n오늘의 걸음수에 Kcal 소모 상세 확인이 가능합니다.\n홈의 실시간 걸음수가 업데이트 되지 않던 버그를 수정했습니다.",
-               "bodyEn": "You can now reorder cards at the bottom of the home screen.\nGPS map display during workouts has been temporarily disabled due to a bug.\nDetailed Kcal burn for today's step count is now available.\nFixed a bug where the real-time step count on the home screen was not updating.",
-               "bodyJa": "ホーム画面下部にカードの並び替え機能が追加されました。\nバグのため、運動中のGPSマップ表示を 一時的にOFFにしました。\n今日の歩数でKcal消費の詳細を確認できるようになりました。\nホーム画面のリアルタ イム歩数が更新されないバグを修正しました。",
-               "link": null,
-               "minVersion": null,
-               "maxVersion": null,
-               "isPinned": false,
-               "publishedAt": "2026-05-31T00:00:00Z"
-             },
+              {
+                     "id": "notice-20260531-1120",
+                     "type": "notice",
+                     "title": "업데이트 알림",
+                     "titleKo": "1.10.0 ~ 1.12.0 업데이트 소개",
+                     "titleEn": "1.10.0 ~ 1.12.0 Update",
+                     "titleJa": "1.10.0 ~ 1.12.0 アップデート紹介",
+                     "body": "Thank you for using Ksteps.",
+                     "bodyKo": "홈 하단에 카드 순서 편집기능이 추가되었습니다.\n운동중 GPS 지도 표시는 버그로 인해 우선 당분간 기능 OFF 되었습니다.\n오늘의 걸음수에 Kcal 소모 상세 확인이 가능합니다.\n홈의 실시간 걸음수가 업데이트 되지 않던 버그를 수정했습니다.",
+                     "bodyEn": "You can now reorder cards at the bottom of the home screen.\nGPS map display during workouts has been temporarily disabled due to a bug.\nDetailed Kcal burn for today's step count is now available.\nFixed a bug where the real-time step count on the home screen was not updating.",
+                     "bodyJa": "ホーム画面下部にカードの並び替え機能が追加されました。\nバグのため、運動中のGPSマップ表示を 一時的にOFFにしました。\n今日の歩数でKcal消費の詳細を確認できるようになりました。\nホーム画面のリアルタ イム歩数が更新されないバグを修正しました。",
+                     "link": null,
+                     "minVersion": null,
+                     "maxVersion": null,
+                     "isPinned": false,
+                     "publishedAt": "2026-05-31T00:00:00Z"
+              },
           {
              "id": "notice-20260512-170",
              "type": "notice",
