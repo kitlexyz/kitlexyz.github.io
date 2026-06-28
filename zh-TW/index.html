@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksteps 支援與隱私權</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #eef5ef;
+            --card: rgba(255, 255, 255, 0.82);
+            --text: #183126;
+            --muted: #547060;
+            --accent: #2f7d57;
+            --line: rgba(47, 125, 87, 0.16);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #07120d;
+                --card: rgba(14, 28, 21, 0.86);
+                --text: #eef7f0;
+                --muted: #a5b9ad;
+                --accent: #7ee0a6;
+                --line: rgba(126, 224, 166, 0.16);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang TC",
+"Heiti TC", sans-serif;
+            background:
+                radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
+                radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
+                var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+
+        .hero,
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        .hero {
+            padding: 28px;
+            margin-bottom: 18px;
+        }
+
+        h1, h2, h3, p, ul {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 34px;
+            line-height: 1.15;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle,
+        .muted {
+            color: var(--muted);
+        }
+
+        .grid {
+            display: grid;
+            gap: 18px;
+            grid-template-columns: 1fr;
+        }
+
+        .card {
+            padding: 24px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        li + li {
+            margin-top: 6px;
+        }
+
+        .section + .section {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--line);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border-radius: 999px;
+            background: rgba(47, 125, 87, 0.10);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <div class="pill">Ksteps</div>
+            <h1>支援與隱私權</h1>
+            <p class="subtitle">Ksteps 協助您在 Apple Watch 上一目瞭然地查看今日步數和目標進度。本頁面提供 Ksteps 的支援資訊與隱私權政策。</p>
+        </section>
+
+        <div class="grid">
+            <section class="card">
+                <h2>支援</h2>
+
+                <div class="section">
+                    <h3>關於此應用程式</h3>
+                    <p class="muted">Ksteps 專為在 Apple Watch 和複雜功能上快速查看步數而設計。您可以設定步數目標、語言及單位偏好，應用程式會讀取 Apple 健康的步數資料以顯示進度。在 Apple Watch 上，您可以開始並儲存步行或健行運動工作階段，並記錄 GPS 路線。</p>
+                </div>
+
+                <div class="section">
+                    <h3>注意事項</h3>
+                    <ul class="muted">
+                        <li>在 Apple Watch 上首次開啟應用程式或開始運動時，可能會出現 HealthKit 和位置權限請求。</li>
+                        <li>位置存取用於在運動期間記錄 GPS 路線，拒絕此權限不影響步數計算或運動儲存。</li>
+                        <li>權限請求畫面可能需要幾秒鐘才能完成回應。</li>
+                        <li>開啟或重新整理 Apple Watch 應用程式時，最新步數可能會自動更新。</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>聯絡我們</h3>
+                    <p class="muted">如需支援，請聯絡：<a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>隱私權政策</h2>
+
+                <div class="section">
+                    <h3>我們存取的資訊</h3>
+                    <p class="muted">Ksteps 可能會讀取 Apple HealthKit 步數資料，以在應用程式和複雜功能中顯示。若您在 Apple Watch 上開始運動，應用程式可能會將步行或健行運動記錄儲存至 HealthKit。若您在運動期間授予位置權限，GPS 路線資料可能會儲存至 Apple 健康。</p>
+                </div>
+
+                <div class="section">
+                    <h3>資訊使用方式</h3>
+                    <ul class="muted">
+                        <li>在應用程式和 Apple Watch 複雜功能中顯示您的步數及目標進度。</li>
+                        <li>將您在 Apple Watch 上開始的步行或健行運動工作階段儲存至 Apple 健康。</li>
+                        <li>在授予位置權限的情況下，將運動期間的 GPS 路線記錄至 Apple 健康。</li>
+                        <li>將步數目標、語言、單位及複雜功能標題等偏好設定儲存於本機裝置儲存空間和應用程式群組容器中。</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>伺服器傳輸</h3>
+                    <p class="muted">Ksteps 不會將 HealthKit 資料或位置資料傳送至開發者伺服器，也不會儲存於外部系統。所有資料均在您的裝置上及 Apple 健康生態系統內處理。</p>
+                </div>
+
+                <div class="section">
+                    <h3>第三方共享</h3>
+                    <p class="muted">Ksteps 不會與第三方共享您的 HealthKit 資料或位置資料。</p>
+                </div>
+
+                <div class="section">
+                    <h3>聯絡我們</h3>
+                    <p class="muted">如有隱私權相關問題，請聯絡：<a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
