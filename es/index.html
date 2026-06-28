@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksteps Soporte y Privacidad</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #eef5ef;
+            --card: rgba(255, 255, 255, 0.82);
+            --text: #183126;
+            --muted: #547060;
+            --accent: #2f7d57;
+            --line: rgba(47, 125, 87, 0.16);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #07120d;
+                --card: rgba(14, 28, 21, 0.86);
+                --text: #eef7f0;
+                --muted: #a5b9ad;
+                --accent: #7ee0a6;
+                --line: rgba(126, 224, 166, 0.16);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+            background:
+                radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
+                radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
+                var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+
+        .hero,
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        .hero {
+            padding: 28px;
+            margin-bottom: 18px;
+        }
+
+        h1, h2, h3, p, ul {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 34px;
+            line-height: 1.15;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle,
+        .muted {
+            color: var(--muted);
+        }
+
+        .grid {
+            display: grid;
+            gap: 18px;
+            grid-template-columns: 1fr;
+        }
+
+        .card {
+            padding: 24px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        li + li {
+            margin-top: 6px;
+        }
+
+        .section + .section {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--line);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border-radius: 999px;
+            background: rgba(47, 125, 87, 0.10);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <div class="pill">Ksteps</div>
+            <h1>Soporte y Privacidad</h1>
+            <p class="subtitle">Ksteps está diseñado para ayudarte a consultar de un vistazo el conteo de pasos del día y el progreso hacia tu objetivo en Apple Watch. Esta página proporciona información de soporte y la política de privacidad de Ksteps.</p>
+        </section>
+
+        <div class="grid">
+            <section class="card">
+                <h2>Soporte</h2>
+
+                <div class="section">
+                    <h3>Acerca de la app</h3>
+                    <p class="muted">Ksteps está diseñado para ver rápidamente tu conteo de pasos en Apple Watch y en las complicaciones. Puedes configurar tu objetivo de pasos, idioma y preferencias de unidades. La app lee los datos de pasos de Apple Health para mostrar tu progreso. En Apple Watch, puedes iniciar y guardar sesiones de caminata o senderismo con registro de ruta GPS.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Cosas a verificar</h3>
+                    <ul class="muted">
+                        <li>Al abrir la app o iniciar un ejercicio por primera vez en Apple Watch, pueden aparecer solicitudes de permisos de HealthKit y ubicación.</li>
+                        <li>El acceso a la ubicación se usa para registrar tu ruta GPS durante los ejercicios. Denegarlo no afecta el conteo de pasos ni el guardado del ejercicio.</li>
+                        <li>El panel de permisos puede tardar unos segundos en responder.</li>
+                        <li>El conteo de pasos más reciente puede actualizarse al abrir o actualizar la app de Apple Watch.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Contacto</h3>
+                    <p class="muted">Si necesitas soporte, escríbenos a: <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Política de Privacidad</h2>
+
+                <div class="section">
+                    <h3>Información a la que accedemos</h3>
+                    <p class="muted">Ksteps puede leer los datos de pasos de Apple HealthKit para mostrarlos en la app y en las complicaciones. Si inicias un ejercicio en Apple Watch, la app puede guardar ese registro de caminata o senderismo en HealthKit. Si concedes permiso de ubicación durante un ejercicio, los datos de ruta GPS pueden guardarse en Apple Health.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Cómo se usa la información</h3>
+                    <ul class="muted">
+                        <li>Para mostrar tu conteo de pasos y progreso hacia el objetivo en la app y en las complicaciones de Apple Watch.</li>
+                        <li>Para guardar en Apple Health las sesiones de caminata o senderismo que inicies en Apple Watch.</li>
+                        <li>Para registrar tu ruta GPS en Apple Health durante los ejercicios, si se concede el permiso de ubicación.</li>
+                        <li>Para almacenar preferencias como el objetivo de pasos, idioma, unidad y título de complicación en el almacenamiento local del dispositivo y el contenedor del grupo de apps.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Transmisión a servidores</h3>
+                    <p class="muted">Ksteps no envía datos de HealthKit ni datos de ubicación a los servidores del desarrollador, ni los almacena en sistemas externos. Todos los datos se procesan en tu dispositivo y dentro del ecosistema de Apple Health.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Compartición con terceros</h3>
+                    <p class="muted">Ksteps no comparte tus datos de HealthKit ni datos de ubicación con terceros.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Contacto</h3>
+                    <p class="muted">Para preguntas relacionadas con la privacidad, escríbenos a: <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
