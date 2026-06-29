@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksteps Support & Datenschutz</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #eef5ef;
+            --card: rgba(255, 255, 255, 0.82);
+            --text: #183126;
+            --muted: #547060;
+            --accent: #2f7d57;
+            --line: rgba(47, 125, 87, 0.16);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #07120d;
+                --card: rgba(14, 28, 21, 0.86);
+                --text: #eef7f0;
+                --muted: #a5b9ad;
+                --accent: #7ee0a6;
+                --line: rgba(126, 224, 166, 0.16);
+            }
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+            background:
+                radial-gradient(circle at top right, rgba(91, 167, 122, 0.20), transparent 26rem),
+                radial-gradient(circle at bottom left, rgba(91, 167, 122, 0.14), transparent 18rem),
+                var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+
+        .hero, .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        .hero { padding: 28px; margin-bottom: 18px; }
+
+        h1, h2, h3, p, ul { margin: 0; }
+        h1 { font-size: 34px; line-height: 1.15; margin-bottom: 10px; }
+        h2 { font-size: 22px; margin-bottom: 12px; }
+        h3 { font-size: 18px; margin-bottom: 8px; }
+
+        .subtitle, .muted { color: var(--muted); }
+
+        .grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+        .card { padding: 24px; }
+        ul { padding-left: 18px; }
+        li + li { margin-top: 6px; }
+
+        .section + .section {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--line);
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .pill {
+            display: inline-block;
+            padding: 6px 10px;
+            margin-bottom: 12px;
+            border-radius: 999px;
+            background: rgba(47, 125, 87, 0.10);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <div class="pill">Ksteps</div>
+            <h1>Support & Datenschutz</h1>
+            <p class="subtitle">Ksteps hilft dir, deine tägliche Schrittzahl und den Zielfortschritt direkt auf dem Apple Watch-Zifferblatt auf einen Blick zu sehen. Diese Seite enthält Support-Informationen und die Datenschutzerklärung für Ksteps.</p>
+        </section>
+
+        <div class="grid">
+            <section class="card">
+                <h2>Support</h2>
+
+                <div class="section">
+                    <h3>Über die App</h3>
+                    <p class="muted">Ksteps ist darauf ausgelegt, deine Schrittzahl schnell auf der Apple Watch und in Komplikationen anzuzeigen. Du kannst dein Schrittziel, die Sprache und die Einheitenpräferenzen konfigurieren. Die App liest Schritdaten aus Apple Health, um deinen Fortschritt anzuzeigen. Auf der Apple Watch kannst du Geh- oder Wandersitzungen mit GPS-Routenaufzeichnung starten und speichern.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Hinweise</h3>
+                    <ul class="muted">
+                        <li>Wenn du die App zum ersten Mal auf der Apple Watch öffnest oder ein Training startest, können Berechtigungsanfragen für HealthKit und den Standort erscheinen.</li>
+                        <li>Der Standortzugriff wird verwendet, um deine GPS-Route während des Trainings aufzuzeichnen. Eine Ablehnung hat keinen Einfluss auf die Schrittzählung oder das Speichern des Trainings.</li>
+                        <li>Es kann einige Sekunden dauern, bis das Berechtigungsfenster reagiert.</li>
+                        <li>Deine aktuellste Schrittzahl wird möglicherweise aktualisiert, wenn du die Apple Watch-App öffnest oder aktualisierst.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Kontakt</h3>
+                    <p class="muted">Für Support kontaktiere uns unter: <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Datenschutzerklärung</h2>
+
+                <div class="section">
+                    <h3>Zugriff auf Informationen</h3>
+                    <p class="muted">Ksteps kann Apple HealthKit-Schritdaten lesen, um sie in der App und in Komplikationen anzuzeigen. Wenn du ein Training auf der Apple Watch startest, kann die App diesen Geh- oder Wandereintrag in HealthKit speichern. Wenn du während eines Trainings die Standortberechtigung erteilst, können GPS-Routendaten in Apple Health gespeichert werden.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Verwendung der Informationen</h3>
+                    <ul class="muted">
+                        <li>Anzeige deiner Schrittzahl und des Zielfortschritts in der App und in Apple Watch-Komplikationen.</li>
+                        <li>Speichern von Geh- oder Wandersitzungen, die du auf der Apple Watch startest, in Apple Health.</li>
+                        <li>Aufzeichnung deiner GPS-Route in Apple Health während des Trainings, sofern die Standortberechtigung erteilt wurde.</li>
+                        <li>Speicherung von Einstellungen wie Schrittziel, Sprache, Einheit und Komplikationstitel im lokalen Gerätespeicher und im App-Gruppen-Container.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Serverübertragung</h3>
+                    <p class="muted">Ksteps sendet keine HealthKit-Daten oder Standortdaten an die Server des Entwicklers und speichert sie nicht auf externen Systemen. Alle Daten werden auf deinem Gerät und innerhalb des Apple Health-Ökosystems verarbeitet.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Weitergabe an Dritte</h3>
+                    <p class="muted">Ksteps gibt deine HealthKit-Daten oder Standortdaten nicht an Dritte weiter.</p>
+                </div>
+
+                <div class="section">
+                    <h3>Kontakt</h3>
+                    <p class="muted">Für Fragen zum Datenschutz kontaktiere uns unter: <a href="mailto:kitle.xyz@gmail.com">kitle.xyz@gmail.com</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
