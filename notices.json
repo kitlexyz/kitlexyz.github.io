@@ -1,6 +1,31 @@
 {
-       "updatedAt": "2026-05-31T00:00:00Z",
+       "updatedAt": "2026-07-09T00:00:00Z",
        "items": [
+              {
+       "id": "notice-20260709-1200",
+       "type": "update",
+       "title": "업데이트 알림",
+       "titleKo": "1.17.0 업데이트 소개",
+       "titleEn": "1.17.0 Update",
+       "titleJa": "1.17.0 アップデート紹介",
+       "titleEs": "Actualización 1.17.0",
+       "titleZhHant": "1.17.0 更新介紹",
+       "titleDe": "1.17.0 Update",
+       "titleFr": "Mise à jour 1.17.0",
+       "body": "Thank you for using Ksteps.",
+       "bodyKo": "오늘 걸음 수 카드 아래에 오늘의 진행 상황을 분석해 알려주는 문구가 추가되었습니다.\n최근 1주 걸음수 그래프를 한눈에 보기 편한 원형 그래프로 새롭게 디자인했습니다.",
+       "bodyEn": "Added a short analysis and encouragement message below today's step count.\nRedesigned the recent 7-day steps graph into a cleaner, easier-to-read ring chart.",
+       "bodyJa": "今日の歩数カードの下に、今日の進捗を分析して伝える一言が追加されました。\n直近1週間の歩数グラフを、ひと目で見やすいリング型グラフに一新しました。",
+       "bodyEs": "Se añadió un breve análisis y mensaje de ánimo debajo del contador de pasos de hoy.\nRediseñamos el gráfico de los últimos 7 días como un gráfico circular más claro y fácil de leer.",
+       "bodyZhHant": "在今日步數卡片下方新增了分析今日進度並鼓勵你的文字。\n將最近7天的步數圖表重新設計為更簡潔、一目了然的環形圖。",
+       "bodyDe": "Unter der heutigen Schrittzahl wurde ein kurzer Fortschrittshinweis mit Ermutigung hinzugefügt.\nDas Diagramm der letzten 7 Tage wurde in ein übersichtlicheres Ringdiagramm umgestaltet.",
+       "bodyFr": "Un court message d'analyse et d'encouragement a été ajouté sous le nombre de pas du jour.\nLe graphique des 7 derniers jours a été repensé en un graphique circulaire plus clair et lisible.",
+       "link": null,
+       "minVersion": null,
+       "maxVersion": null,
+       "isPinned": false,
+       "publishedAt": "2026-07-09T00:00:00Z"
+},
               {
                      "id": "notice-20260531-1120",
                      "type": "notice",
