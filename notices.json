@@ -1,6 +1,31 @@
 {
-       "updatedAt": "2026-07-09T00:00:00Z",
+       "updatedAt": "2026-09-09T00:00:00Z",
        "items": [
+              {
+       "id": "notice-20260909-1180",
+       "type": "update",
+       "title": "업데이트 알림",
+       "titleKo": "1.18.0 업데이트 소개",
+       "titleEn": "1.18.0 Update",
+       "titleJa": "1.18.0 アップデート紹介",
+       "titleEs": "Actualización 1.18.0",
+       "titleZhHant": "1.18.0 更新介紹",
+       "titleDe": "1.18.0 Update",
+       "titleFr": "Mise à jour 1.18.0",
+       "body": "Thank you for using Ksteps.",
+       "bodyKo": "홈탭의 오늘 걸음수가 비정상적으로 높게 표시되는 문제를 해결했습니다.\n앱 업데이트 후 더 정확해진 걸음 수를 확인해보세요.\n걸음 수를 바탕으로 예상 보행 시간을 알려주는 배지가 홈 화면에 추가되었습니다.\n사용해보신 후 추가 의견이 있다면 App Store 리뷰 또는 ‘피드백 보내기’ 메뉴를 통해 알려주세요.\n\n-Ksteps 개발자 드림-",
+       "bodyEn": "Fixed an issue where today's step count could appear abnormally high on the Home tab.\nUpdate the app and enjoy more accurate step counts.\nA badge showing your estimated walking time based on your steps has been added to the Home screen.\nAfter trying it, please share any additional feedback through an App Store review or the Send Feedback menu.\n\n—The Ksteps Developer—",
+       "bodyJa": "ホームタブで今日の歩数が異常に高く表示される問題を修正しました。\nアプリをアップデートして、より正確になった歩数をご確認ください。\n歩数をもとに予想歩行時間を表示するバッジをホーム画面に追加しました。\nご利用のうえ、追加のご意見がありましたら、App Storeのレビューまたは「フィードバックを送信」メニューからお知らせください。\n\n—Ksteps開発者より—",
+       "bodyEs": "Hemos solucionado un problema por el que el recuento de pasos de hoy podía aparecer anormalmente alto en la pestaña Inicio.\nActualiza la aplicación y disfruta de un recuento de pasos más preciso.\nHemos añadido a la pantalla de inicio una insignia que muestra el tiempo de caminata estimado según tus pasos.\nDespués de probarla, comparte tus comentarios a través de una reseña en la App Store o del menú Enviar comentarios.\n\n—El desarrollador de Ksteps—",
+       "bodyZhHant": "我們修正了首頁分頁中今日步數可能顯示異常偏高的問題。\n更新 App 後，即可使用更準確的步數功能。\n首頁新增了根據步數預估步行時間的徽章。\n使用後如有其他意見，歡迎透過 App Store 評論或「傳送回饋」選單告訴我們。\n\n—Ksteps 開發者敬上—",
+       "bodyDe": "Wir haben ein Problem behoben, durch das die heutige Schrittzahl auf dem Home-Tab ungewöhnlich hoch angezeigt werden konnte.\nAktualisiere die App und nutze die genauere Schrittzählung.\nAuf dem Home-Bildschirm gibt es jetzt ein Abzeichen mit der anhand deiner Schritte geschätzten Gehzeit.\nWenn du die Funktion ausprobiert hast, teile uns weitere Rückmeldungen über eine Bewertung im App Store oder das Menü „Feedback senden“ mit.\n\n—Der Ksteps-Entwickler—",
+       "bodyFr": "Nous avons corrigé un problème pouvant afficher un nombre de pas anormalement élevé pour aujourd’hui dans l’onglet Accueil.\nMettez l’app à jour pour profiter d’un comptage des pas plus précis.\nUn badge indiquant la durée de marche estimée à partir de vos pas a été ajouté à l’écran d’accueil.\nAprès l’avoir essayé, envoyez-nous vos commentaires via un avis sur l’App Store ou le menu « Envoyer un commentaire ».\n\n—Le développeur de Ksteps—",
+       "link": null,
+       "minVersion": null,
+       "maxVersion": null,
+       "isPinned": false,
+       "publishedAt": "2026-09-09T00:00:00Z"
+},
               {
        "id": "notice-20260709-1200",
        "type": "update",
