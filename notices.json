@@ -1,6 +1,40 @@
 {
-       "updatedAt": "2026-09-09T00:00:00Z",
+       "updatedAt": "2026-09-24T00:00:00Z",
        "items": [
+              {
+  "id": "notice-20260924-1190",
+  "type": "update",
+  "title": "업데이트 알림",
+  "titleKo": "1.19.0 업데이트 소개",
+  "titleEn": "1.19.0 Update",
+  "titleJa": "1.19.0 アップデート紹介",
+  "titleEs": "Actualización 1.19.0",
+  "titleZhHant": "1.19.0 更新介紹",
+  "titleDe": "1.19.0 Update",
+  "titleFr": "Mise à jour 1.19.0",
+
+  "body": "Thank you for using Ksteps.",
+
+  "bodyKo": "연간 누적 챌린지와 달성한 홈 카드 뱃지 디자인 적용 기능이 추가되었어요.\n\n즐거운 명절 추석입니다. 풍성한 한가위 보내시고, Ksteps와 함께 걸으며 명절에도 건강하세요! 🌕\n\n-Ksteps 개발자 드림-",
+
+  "bodyEn": "Added an annual cumulative challenge and a new feature that applies badge designs you've earned to your Home cards.\n\n—The Ksteps Developer—",
+
+  "bodyJa": "年間累積チャレンジと、獲得したバッジのデザインをホームカードに適用できる機能が追加されました。\n\n—Ksteps開発者より—",
+
+  "bodyEs": "Se añadió un desafío acumulativo anual y una nueva función que permite aplicar los diseños de las insignias obtenidas a las tarjetas de Inicio.\n\n—El desarrollador de Ksteps—",
+
+  "bodyZhHant": "新增年度累積挑戰，以及可將已獲得的徽章設計套用至首頁卡片的功能。\n\n—Ksteps 開發者敬上—",
+
+  "bodyDe": "Eine jährliche kumulative Challenge wurde hinzugefügt. Außerdem kannst du jetzt die Designs deiner erreichten Abzeichen auf deine Home-Karten anwenden.\n\n—Der Ksteps-Entwickler—",
+
+  "bodyFr": "Un défi cumulatif annuel a été ajouté. Vous pouvez également appliquer les designs des badges obtenus à vos cartes de l'écran d'accueil.\n\n—Le développeur de Ksteps—",
+
+  "link": null,
+  "minVersion": null,
+  "maxVersion": null,
+  "isPinned": false,
+  "publishedAt": "2026-09-24T00:00:00Z"
+},
               {
        "id": "notice-20260909-1180",
        "type": "update",
